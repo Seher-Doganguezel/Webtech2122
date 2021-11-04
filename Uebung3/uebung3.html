@@ -5,41 +5,170 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Städte</title>
-</head>
-<h3>Städte</h3>
+
+
     <style>
-        #example1 {
-  box-sizing: content-box;  
-  width: 90px;
-  height: 60px;
-  padding: 30px;  
-  border: 8px solid rgb(85, 85, 94);
-}
+
+      header {
+        background-color: green;
+        color: whitesmoke;
+        text-align: center;
+        padding: 5px;
+      }
+
         .grid-container {
           display: grid;
-          grid-template-columns: auto auto auto auto;
+          grid-template-columns: repeat(4, 1fr);
           grid-gap: 30px;
           background-color: #d2dce4;
           padding: 60px;
-          
+        }
 
+
+          .citycard {
+
+          background-color: rgb(201, 196, 196);
+          display: grid;
+          grid-template-rows: 4fr 1fr;
+        }
+
+        .name{
+          text-align: center;
+        }
+
+        .bild img {
+            width: 75%;
+        }
+              
+    </style>     
+</head>
+<header><h2>STÄDTE</h2></header>
         
-    </style>          
             <body>
 
+                
                 <div class="grid-container">
-                    <img src="../images/brandenburg.png" alt="logo" style="width:70px; height:90px;"/>
-                    <img src="../images/berlin.png" alt="logo" style="width:70px; height:90px;"/>
-                    <img src="../images/bremen.png" alt="logo" style="width:70px; height:90px;"/> 
-                    <img src="../images/mainz.png" alt="logo" style="width:70px; height:90px;"/>
-                    <img src="../images/madrid.png" alt="logo" style="width:70px; height:90px;"/>
-                    <img src="../images/stockholm.png" alt="logo" style="width:70px; height:90px;"/> 
-                    <img src="../images/bernau.png" alt="logo" style="width:70px; height:90px;"/>
-                  </div>
                   
-                  <div id="example1"><img src="../images/madrid.png" alt="logo" style="width:59px; height:74px;" </div>
-                  <div id="example1"><img src="../images/madrid.png" alt="logo" style="width:59px; height:74px;" </div>
-                  <div id="example1"><img src="../images/madrid.png" alt="logo" style="width:59px; height:74px;" </div>
-                  <div id="example1"><img src="../images/madrid.png" alt="logo" style="width:59px; height:74px;" </div>
-                  <div id="example1"><img src="../images/madrid.png" alt="logo" style="width:59px; height:74px;" </div>
+                
+             <div class="citycard">
+                  <div class="bild"> <img src= "../images/berlin.png" alt= "Berlin">
+                    </div>
+
+               <div class="name">
+                  <p>Berlin</p>
+                </div> 
+            </div>
+
+          
+
+            <div class="citycard">
+                  <div class="bild"> <img src= "../images/bernau.png" alt= "Bernau">
+                    </div>
+
+                <div class="name">
+                  <p>Berlin</p>
+                </div> 
+           </div>
+
+
+
+           <div class="citycard">
+                  <div class="bild"> <img src= "../images/bremen.png" alt= "Bernau">
+                    </div>
+
+                <div class="name">
+                  <p>Bremen</p>
+                </div> 
+           </div>
+              
+           
+
+            <div class="citycard">
+                  <div class="bild"> <img src= "../images/bremerhaven.png" alt= "Bermerhaven">
+                    </div>
+
+                <div class="name">
+                  <p>Bremerhaven</p>
+                </div>
+           </div>
+                
+
+           <div class="citycard">
+                  <div class="bild"> <img src= "../images/madrid.png" alt= "Madrid">
+                    </div>
+
+                <div class="name">
+                  <p>Madrid</p>
+                </div>
+          </div>
+
+
+                
+           <div class="citycard">
+                  <div class="bild"> <img src= "../images/magdeburg.png" alt= "Magdeburg">
+                    </div>
+
+                <div class="name">
+                  <p>Magdeburg</p>
+                </div> 
+            </div>
+
+
+
+           <div class="citycard">
+                  <div class="bild"> <img src= "../images/mainz.png" alt= "Mainz">
+                    </div>
+
+                <div class="name">
+                  <p>Mainz</p>
+                </div> 
+            </div>
+
+
+
+            <div class="citycard">
+                  <div class="bild"> <img src= "../images/mannheim.png" alt= "Mannheim">
+                    </div>
+
+                <div class="name">
+                  <p>Mannheim</p>
+                </div> 
+              </div>
+
+
+              <div class="citycard">
+                <div class="bild"> <img src= "../images/marburg.png" alt= "Maeburg">
+                  </div>
+
+              <div class="name">
+                <p>Maburg</p>
+              </div> 
+          </div>
+
+
+          
+
+      
+                
+          <div class="citycard">
+            <div class="bild"> <img src= "../images/newyork.png" alt= "NY">
+              </div>
+
+          <div class="name">
+            <p>New York</p>
+          </div> 
+      </div>
+
+                
+      <div class="citycard">
+        <div class="bild"> <img src= "../images/stockholm.png" alt= "Stockolm">
+          </div>
+
+      <div class="name">
+        <p>Stockholm</p>
+      </div> 
+  </div>
+                  
+
+</div>                 
 </html>
